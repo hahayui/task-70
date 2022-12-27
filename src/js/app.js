@@ -5,7 +5,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
 const sampleImage = document.querySelector(".image");
 sampleImage.addEventListener("click", () => {
-sampleImage.style.setProperty("scale",2);
+//sampleImage.style.setProperty("scale",2);
+sampleImage.style.transform = "scale(2)";
 });
 
   const button = document.querySelector(".button");
